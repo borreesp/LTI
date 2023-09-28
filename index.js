@@ -41,7 +41,7 @@ const setup = async () => {
    await lti.registerPlatform({
     url: 'https://dev.learningwithsoul.com/campus',
     name: 'Platform',
-    clientId: 'YFhoToicfrjSGzA',
+    clientId: '1MNJpYZO2jGlf98',
     authenticationEndpoint: 'https://dev.learningwithsoul.com/campus/mod/lti/auth.php',
     accesstokenEndpoint: 'https://dev.learningwithsoul.com/campus/mod/lti/token.php',
     authConfig: { method: 'JWK_SET', key: 'https://dev.learningwithsoul.com/campus/mod/lti/certs.php' }
